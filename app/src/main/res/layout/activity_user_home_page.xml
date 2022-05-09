@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.UserHomePage">
+
+
+    <ImageView
+        android:id="@+id/imageView_doctor_list"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/doctor_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView_clinic_list"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="100dp"
+
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/clinic_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView_book_app"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/book_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_doctor_list" />
+
+    <ImageView
+        android:id="@+id/imageView_view_app"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/view_app"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_clinic_list" />
+
+    <ImageView
+        android:id="@+id/imageView_list_member"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/lista_member"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_book_app" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_menu"
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_notifications_24"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageView_profile"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_img"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HOME"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/_25sdp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_profile"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listview_item"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:background="#ccc"
+
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4" />
+
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/color_btn"
+        android:text="Log out "
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_list_member"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

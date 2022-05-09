@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.EditAppointment">
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_before" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        app:cardElevation="@dimen/_5sdp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="EDIT APPOINTMENT"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteY="43dp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_def" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/ic_book_1" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/ic_book_2" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/ic_book_3" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/ic_book_4" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:srcCompat="@drawable/ic_book_5" />
+
+
+    <Spinner
+        android:id="@+id/clinic_spinner"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Spinner
+        android:id="@+id/doctor_spinner"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/clinic_spinner" />
+
+    <Button
+        android:id="@+id/cancel_booking"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="49dp"
+        android:backgroundTint="@color/color_btn"
+        android:text="cancel"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_booking"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/edit_booking"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="49dp"
+        android:backgroundTint="@color/color_btn"
+        android:text="edit"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/booking_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:text="Select Date"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_spinner" />
+
+    <TextView
+        android:id="@+id/clinic_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:text=""
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/booking_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        android:text=""
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/booking_date" />
+    <Spinner
+        android:id="@+id/time_spinner"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/booking_date" />
+    <EditText
+        android:id="@+id/patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="enter patient name"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/booking_time" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

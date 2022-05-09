@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.EditDoctor">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:text="EDIT DOCTOR"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toStartOf="@+id/button_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="52dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_next" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_back">
+
+        <EditText
+            android:id="@+id/doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="  doctor name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textColor="@color/color_text"
+            android:textColorHighlight="@color/color_text"
+            android:textColorHint="#CB000000"
+            android:textSize="@dimen/_15sdp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card41"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="match_parent"
+                android:text="  clinic name"
+                android:gravity="center"
+                android:textColor="#CB000000"
+                android:textSize="@dimen/_15sdp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/clinic_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+        <TextView
+        android:id="@+id/clinic_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:paddingLeft="@dimen/_20sdp"
+        android:text=""
+        android:textSize="@dimen/_18sdp" />
+</RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card415"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card41">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="match_parent"
+                    android:text=" start working"
+                    android:gravity="center"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/_15sdp" />
+
+                <ImageButton
+                    android:id="@+id/add_start_time"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/ic_time" />
+
+                <TextView
+                    android:id="@+id/start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center">
+
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="match_parent"
+                    android:text=" end working"
+                    android:gravity="center"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/_15sdp" />
+
+                <ImageButton
+                    android:id="@+id/add_end_time"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/ic_time" />
+
+                <TextView
+                    android:id="@+id/end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/_15sdp" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/button_add_doctor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="248dp"
+        android:backgroundTint="@color/color_btn"
+        android:text="Edit Doctor"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card415"
+        app:layout_constraintVertical_bias="0.474"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

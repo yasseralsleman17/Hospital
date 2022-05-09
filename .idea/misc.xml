@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nader/AndroidStudioProjects/Hospital/app/src/main/res/drawable/border.xml" value="0.206" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/Hospital/app/src/main/res/layout/activity_login.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/Hospital/app/src/main/res/layout/activity_main.xml" value="0.3153846153846154" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/Hospital/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/nader/AndroidStudioProjects/Hospital/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1635" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/border.xml" value="0.2585" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/ic_baseline_date_range_40.xml" value="0.2595" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.2475" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/ic_next.xml" value="0.2595" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/ic_person3.xml" value="0.2465" />
+        <entry key="..\:/game/Hospital/app/src/main/res/drawable/rounded_corner.xml" value="0.2585" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_add_clinic.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_add_doctor.xml" value="0.24010416666666667" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_add_new_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_admin_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_book_appointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_clinic_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_delete_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_doctor_list.xml" value="0.2" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_edit_appointment.xml" value="0.24010416666666667" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_edit_doctor.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_family_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_forget_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_manage_appointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_manage_doctor.xml" value="0.2" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_reset_pasword.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_user_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_view_appointment.xml" value="0.25364583333333335" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_view_clinic.xml" value="0.25364583333333335" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/activity_view_doctor.xml" value="0.25364583333333335" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/appointment_card.xml" value="0.264" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/doctor_list_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/doctor_list_card_manage.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/edit_family_member.xml" value="0.18704710144927536" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/family_member_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/list_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/rounded_corner.xml" value="0.25416666666666665" />
+        <entry key="..\:/game/Hospital/app/src/main/res/layout/user_card.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
